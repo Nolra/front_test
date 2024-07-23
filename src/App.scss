@@ -250,13 +250,13 @@ body {
       background: $frame-color;
       flex-direction: column;
       gap: 0;
+      height: 0;
+      overflow: hidden;
+      transition: height .3s;
       .header__link {
         border-top: 1px solid $activity-color;
         height: 50px;
       }
-      height: 0;
-      overflow: hidden;
-      transition: height .3s;
     }
     // JS MENU + Header.jsx
     // &__links_active {
