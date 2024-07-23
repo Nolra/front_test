@@ -1,4 +1,4 @@
-import rocket from "../images/rocket.svg"
+import rocket from "../images/rocket.webp"
 
 const Footer = () => (
   <footer className="footer">
