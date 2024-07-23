@@ -1,4 +1,3 @@
-import { useState } from "react";
 import logo from "../images/logo.svg"
 
 // CSS MENU + CSS MENU in App.scss - &__checkbox
@@ -28,6 +27,7 @@ const Header = () => {
 }
 
 // JS MENU + JS MENU in App.scss - &_active, &__links_active 
+// import { useState } from "react";
 // const Header = () => {
 //   const [isMenuOpen, setIsMenuOpen] = useState(false);
 //   return (
